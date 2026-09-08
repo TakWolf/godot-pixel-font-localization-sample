@@ -1,0 +1,6 @@
+[gd_resource type="FontVariation" format=3 uid="uid://c3j5iy15f40di"]
+
+[ext_resource type="FontFile" uid="uid://dbh41xdtvi67" path="res://assets/fonts/fusion-pixel/fusion-pixel-12px-proportional-zh_hans.otf" id="1_prkbi"]
+
+[resource]
+base_font = ExtResource("1_prkbi")

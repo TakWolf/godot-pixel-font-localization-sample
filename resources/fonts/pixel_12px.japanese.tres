@@ -1,0 +1,6 @@
+[gd_resource type="FontVariation" format=3 uid="uid://c7mchd27cdbes"]
+
+[ext_resource type="FontFile" uid="uid://ddjltanln8buy" path="res://assets/fonts/fusion-pixel/fusion-pixel-12px-proportional-ja.otf" id="1_oy8se"]
+
+[resource]
+base_font = ExtResource("1_oy8se")

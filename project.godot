@@ -21,6 +21,9 @@ window/stretch/aspect="expand"
 
 [internationalization]
 
+locale/translation_remaps={
+"res://resources/fonts/pixel_12px.tres": PackedStringArray("res://resources/fonts/pixel_12px.japanese.tres:ja", "res://resources/fonts/pixel_12px.korean.tres:ko", "res://resources/fonts/pixel_12px.simplified_chinese.tres:zh_Hans", "res://resources/fonts/pixel_12px.traditional_chinese.tres:zh_Hant")
+}
 locale/translations=PackedStringArray("res://localization/sample.de.translation", "res://localization/sample.el.translation", "res://localization/sample.en.translation", "res://localization/sample.es.translation", "res://localization/sample.fr.translation", "res://localization/sample.it.translation", "res://localization/sample.ja.translation", "res://localization/sample.ko.translation", "res://localization/sample.pl.translation", "res://localization/sample.pt_BR.translation", "res://localization/sample.ru.translation", "res://localization/sample.tr.translation", "res://localization/sample.zh_Hans.translation", "res://localization/sample.zh_Hant.translation", "res://localization/ui.de.translation", "res://localization/ui.el.translation", "res://localization/ui.en.translation", "res://localization/ui.es.translation", "res://localization/ui.fr.translation", "res://localization/ui.it.translation", "res://localization/ui.ja.translation", "res://localization/ui.ko.translation", "res://localization/ui.pl.translation", "res://localization/ui.pt_BR.translation", "res://localization/ui.ru.translation", "res://localization/ui.tr.translation", "res://localization/ui.zh_Hans.translation", "res://localization/ui.zh_Hant.translation")
 
 [physics]
