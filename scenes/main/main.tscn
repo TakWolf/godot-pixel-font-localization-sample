@@ -1,0 +1,235 @@
+[gd_scene format=3 uid="uid://ntjwt7je6ga5"]
+
+[ext_resource type="FontVariation" uid="uid://bxfv2tnsbm24v" path="res://resources/fonts/pixel_12px.latin.tres" id="1_6q06x"]
+[ext_resource type="Script" uid="uid://b7fw8tpyfvtm7" path="res://scenes/main/main.gd" id="1_ow5a4"]
+[ext_resource type="FontVariation" uid="uid://c3j5iy15f40di" path="res://resources/fonts/pixel_12px.simplified_chinese.tres" id="2_ow5a4"]
+[ext_resource type="FontVariation" uid="uid://ca3auhkmlc741" path="res://resources/fonts/pixel_12px.traditional_chinese.tres" id="3_hujxm"]
+[ext_resource type="FontVariation" uid="uid://c7mchd27cdbes" path="res://resources/fonts/pixel_12px.japanese.tres" id="4_yyfjg"]
+[ext_resource type="FontVariation" uid="uid://pwwowxnoe4u0" path="res://resources/fonts/pixel_12px.korean.tres" id="5_b1x3f"]
+
+[node name="Main" type="Control" unique_id=78179068]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ow5a4")
+
+[node name="Background" type="ColorRect" parent="." unique_id=1349324640]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0.2509804, 0.3764706, 0.7058824, 1)
+
+[node name="ContentPanel" type="MarginContainer" parent="." unique_id=1582769614]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 24
+theme_override_constants/margin_top = 24
+theme_override_constants/margin_right = 24
+theme_override_constants/margin_bottom = 24
+
+[node name="Layout" type="VBoxContainer" parent="ContentPanel" unique_id=1918587417]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="Title" type="Label" parent="ContentPanel/Layout" unique_id=165718238]
+layout_mode = 2
+theme_override_constants/line_spacing = 0
+theme_override_font_sizes/font_size = 24
+text = "sample.title"
+horizontal_alignment = 1
+
+[node name="Content" type="Label" parent="ContentPanel/Layout" unique_id=265556439]
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_constants/line_spacing = 0
+text = "sample.content"
+autowrap_mode = 3
+
+[node name="Input" type="TextEdit" parent="ContentPanel/Layout" unique_id=2141031928]
+custom_minimum_size = Vector2(0, 96)
+layout_mode = 2
+theme_override_constants/line_spacing = 0
+placeholder_text = "ui.input_placeholder"
+wrap_mode = 1
+
+[node name="OpenLanguageSettingsButton" type="Button" parent="." unique_id=1033218116]
+layout_mode = 1
+offset_left = 24.0
+offset_top = 24.0
+offset_right = 144.0
+offset_bottom = 48.0
+size_flags_horizontal = 0
+size_flags_vertical = 0
+text = "ui.change_language"
+
+[node name="LanguageSettingsDialog" type="Control" parent="." unique_id=1482977581]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="DimBackground" type="ColorRect" parent="LanguageSettingsDialog" unique_id=618362144]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.078431375, 0.078431375, 0.078431375, 0.5882353)
+
+[node name="LocaleOptionsCenter" type="CenterContainer" parent="LanguageSettingsDialog" unique_id=456011764]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="LocaleOptionsGrid" type="GridContainer" parent="LanguageSettingsDialog/LocaleOptionsCenter" unique_id=813370944]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_constants/h_separation = 32
+theme_override_constants/v_separation = 12
+columns = 2
+
+[node name="Button_en" type="Button" parent="LanguageSettingsDialog/LocaleOptionsCenter/LocaleOptionsGrid" unique_id=1928759727]
+auto_translate_mode = 2
+custom_minimum_size = Vector2(180, 0)
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_6q06x")
+text = "English"
+metadata/locale = "en"
+
+[node name="Button_fr" type="Button" parent="LanguageSettingsDialog/LocaleOptionsCenter/LocaleOptionsGrid" unique_id=885169001]
+auto_translate_mode = 2
+custom_minimum_size = Vector2(180, 0)
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_6q06x")
+text = "Français"
+metadata/locale = "fr"
+
+[node name="Button_it" type="Button" parent="LanguageSettingsDialog/LocaleOptionsCenter/LocaleOptionsGrid" unique_id=741186474]
+auto_translate_mode = 2
+custom_minimum_size = Vector2(180, 0)
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_6q06x")
+text = "Italiano"
+metadata/locale = "it"
+
+[node name="Button_de" type="Button" parent="LanguageSettingsDialog/LocaleOptionsCenter/LocaleOptionsGrid" unique_id=184550509]
+auto_translate_mode = 2
+custom_minimum_size = Vector2(180, 0)
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_6q06x")
+text = "Deutsch"
+metadata/locale = "de"
+
+[node name="Button_es" type="Button" parent="LanguageSettingsDialog/LocaleOptionsCenter/LocaleOptionsGrid" unique_id=724858328]
+auto_translate_mode = 2
+custom_minimum_size = Vector2(180, 0)
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_6q06x")
+text = "Español"
+metadata/locale = "es"
+
+[node name="Button_pt_BR" type="Button" parent="LanguageSettingsDialog/LocaleOptionsCenter/LocaleOptionsGrid" unique_id=1226970989]
+auto_translate_mode = 2
+custom_minimum_size = Vector2(180, 0)
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_6q06x")
+text = "Português (Brasil)"
+metadata/locale = "pt_BR"
+
+[node name="Button_pl" type="Button" parent="LanguageSettingsDialog/LocaleOptionsCenter/LocaleOptionsGrid" unique_id=1236284643]
+auto_translate_mode = 2
+custom_minimum_size = Vector2(180, 0)
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_6q06x")
+text = "Polski"
+metadata/locale = "pl"
+
+[node name="Button_tr" type="Button" parent="LanguageSettingsDialog/LocaleOptionsCenter/LocaleOptionsGrid" unique_id=1369743044]
+auto_translate_mode = 2
+custom_minimum_size = Vector2(180, 0)
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_6q06x")
+text = "Türkçe"
+metadata/locale = "tr"
+
+[node name="Button_ru" type="Button" parent="LanguageSettingsDialog/LocaleOptionsCenter/LocaleOptionsGrid" unique_id=1635863540]
+auto_translate_mode = 2
+custom_minimum_size = Vector2(180, 0)
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_6q06x")
+text = "Русский"
+metadata/locale = "ru"
+
+[node name="Button_el" type="Button" parent="LanguageSettingsDialog/LocaleOptionsCenter/LocaleOptionsGrid" unique_id=274544260]
+auto_translate_mode = 2
+custom_minimum_size = Vector2(180, 0)
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_6q06x")
+text = "Ελληνικά"
+metadata/locale = "el"
+
+[node name="Button_zh_Hans" type="Button" parent="LanguageSettingsDialog/LocaleOptionsCenter/LocaleOptionsGrid" unique_id=1942690262]
+auto_translate_mode = 2
+custom_minimum_size = Vector2(180, 0)
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_ow5a4")
+text = "简体中文"
+metadata/locale = "zh_Hans"
+
+[node name="Button_zh_Hant" type="Button" parent="LanguageSettingsDialog/LocaleOptionsCenter/LocaleOptionsGrid" unique_id=12414804]
+auto_translate_mode = 2
+custom_minimum_size = Vector2(180, 0)
+layout_mode = 2
+theme_override_fonts/font = ExtResource("3_hujxm")
+text = "繁體中文"
+metadata/locale = "zh_Hant"
+
+[node name="Button_ja" type="Button" parent="LanguageSettingsDialog/LocaleOptionsCenter/LocaleOptionsGrid" unique_id=281634887]
+auto_translate_mode = 2
+custom_minimum_size = Vector2(180, 0)
+layout_mode = 2
+theme_override_fonts/font = ExtResource("4_yyfjg")
+text = "日本語"
+metadata/locale = "ja"
+
+[node name="Button_ko" type="Button" parent="LanguageSettingsDialog/LocaleOptionsCenter/LocaleOptionsGrid" unique_id=481600839]
+auto_translate_mode = 2
+custom_minimum_size = Vector2(180, 0)
+layout_mode = 2
+theme_override_fonts/font = ExtResource("5_b1x3f")
+text = "한국어"
+metadata/locale = "ko"
+
+[node name="CloseLanguageSettingsButton" type="Button" parent="LanguageSettingsDialog" unique_id=935230719]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -144.0
+offset_top = 24.0
+offset_right = -24.0
+offset_bottom = 48.0
+grow_horizontal = 0
+text = "ui.close"
+
+[connection signal="pressed" from="OpenLanguageSettingsButton" to="LanguageSettingsDialog" method="show"]
+[connection signal="pressed" from="LanguageSettingsDialog/CloseLanguageSettingsButton" to="LanguageSettingsDialog" method="hide"]
