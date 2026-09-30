@@ -1,0 +1,35 @@
+[gd_resource type="Theme" format=3 uid="uid://xmvmmljtj8l7"]
+
+[ext_resource type="StyleBox" uid="uid://co8axs3r6j2mr" path="res://resources/styles/button_bright_disabled.tres" id="1_ttywx"]
+[ext_resource type="StyleBox" uid="uid://drlq3hc2j8v6s" path="res://resources/styles/button_bright_focus.tres" id="2_t6fef"]
+[ext_resource type="StyleBox" uid="uid://dgxbsevh8k24h" path="res://resources/styles/button_bright_hover.tres" id="3_tjpgc"]
+[ext_resource type="StyleBox" uid="uid://cv78c3ktchviy" path="res://resources/styles/button_bright_normal.tres" id="4_0x5bx"]
+[ext_resource type="StyleBox" uid="uid://b4s2y7w6hk8q0" path="res://resources/styles/button_bright_pressed.tres" id="5_fppye"]
+[ext_resource type="StyleBox" uid="uid://dd8tflldr6lln" path="res://resources/styles/text_edit_focus.tres" id="6_0x5bx"]
+[ext_resource type="StyleBox" uid="uid://6rv7tlabboc6" path="res://resources/styles/text_edit_normal.tres" id="7_fppye"]
+[ext_resource type="StyleBox" uid="uid://cvoeryuwigtqv" path="res://resources/styles/text_edit_read_only.tres" id="8_ah4tt"]
+[ext_resource type="FontVariation" uid="uid://eg18ta031gsg" path="res://resources/fonts/pixel_12px.tres" id="9_0x5bx"]
+
+[resource]
+default_font = ExtResource("9_0x5bx")
+default_font_size = 12
+Button/colors/font_color = Color(0.14509805, 0.13725491, 0.11372549, 1)
+Button/colors/font_disabled_color = Color(0.2509804, 0.2509804, 0.2509804, 1)
+Button/colors/font_focus_color = Color(0.14509805, 0.13725491, 0.11372549, 1)
+Button/colors/font_hover_color = Color(0.09019608, 0.08627451, 0.0627451, 1)
+Button/colors/font_pressed_color = Color(0.09019608, 0.08627451, 0.0627451, 1)
+Button/styles/disabled = ExtResource("1_ttywx")
+Button/styles/focus = ExtResource("2_t6fef")
+Button/styles/hover = ExtResource("3_tjpgc")
+Button/styles/normal = ExtResource("4_0x5bx")
+Button/styles/pressed = ExtResource("5_fppye")
+TextEdit/colors/caret_color = Color(0.0627451, 0.0627451, 0.0627451, 1)
+TextEdit/colors/current_line_color = Color(0, 0, 0, 0)
+TextEdit/colors/font_color = Color(0.1254902, 0.1254902, 0.1254902, 1)
+TextEdit/colors/font_placeholder_color = Color(0.4392157, 0.4392157, 0.4392157, 1)
+TextEdit/colors/font_readonly_color = Color(0.3137255, 0.3137255, 0.3137255, 1)
+TextEdit/colors/font_selected_color = Color(0.0627451, 0.0627451, 0.0627451, 1)
+TextEdit/colors/selection_color = Color(0.65882355, 0.78039217, 0.98039216, 1)
+TextEdit/styles/focus = ExtResource("6_0x5bx")
+TextEdit/styles/normal = ExtResource("7_fppye")
+TextEdit/styles/read_only = ExtResource("8_ah4tt")
