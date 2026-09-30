@@ -1,0 +1,6 @@
+[gd_resource type="FontVariation" format=3 uid="uid://b8o5xhk5s4jj5"]
+
+[ext_resource type="FontFile" uid="uid://dlwlmf83e7t5a" path="res://assets/fonts/fusion-pixel/fusion-pixel-12px-proportional-zh_hans.otf" id="1_15prk"]
+
+[resource]
+base_font = ExtResource("1_15prk")

@@ -21,6 +21,9 @@ window/stretch/aspect="expand"
 
 [internationalization]
 
+locale/translation_remaps={
+"res://resources/fonts/pixel_12px.tres": PackedStringArray("res://resources/fonts/pixel_12px.chinese_simplified.tres:zh_Hans", "res://resources/fonts/pixel_12px.chinese_traditional.tres:zh_Hant", "res://resources/fonts/pixel_12px.japanese.tres:ja", "res://resources/fonts/pixel_12px.korean.tres:ko")
+}
 locale/translations=PackedStringArray("res://localization/sample.de.po", "res://localization/sample.el.po", "res://localization/sample.en.po", "res://localization/sample.es.po", "res://localization/sample.fr.po", "res://localization/sample.it.po", "res://localization/sample.ja.po", "res://localization/sample.ko.po", "res://localization/sample.pl.po", "res://localization/sample.pt_BR.po", "res://localization/sample.ru.po", "res://localization/sample.tr.po", "res://localization/sample.zh_Hans.po", "res://localization/sample.zh_Hant.po", "res://localization/ui.de.po", "res://localization/ui.el.po", "res://localization/ui.en.po", "res://localization/ui.es.po", "res://localization/ui.fr.po", "res://localization/ui.it.po", "res://localization/ui.ja.po", "res://localization/ui.ko.po", "res://localization/ui.pl.po", "res://localization/ui.pt_BR.po", "res://localization/ui.ru.po", "res://localization/ui.tr.po", "res://localization/ui.zh_Hans.po", "res://localization/ui.zh_Hant.po")
 
 [physics]

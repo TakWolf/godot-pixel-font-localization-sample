@@ -1,0 +1,6 @@
+[gd_resource type="FontVariation" format=3 uid="uid://bhan46ewycldb"]
+
+[ext_resource type="FontFile" uid="uid://c8mb8j5vfpsa7" path="res://assets/fonts/fusion-pixel/fusion-pixel-12px-proportional-zh_hant.otf" id="1_klfkm"]
+
+[resource]
+base_font = ExtResource("1_klfkm")
