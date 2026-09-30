@@ -1,0 +1,12 @@
+msgid ""
+msgstr ""
+"Language: pl\n"
+
+msgid "ui.change_language"
+msgstr "Zmień język"
+
+msgid "ui.close"
+msgstr "Zamknij"
+
+msgid "ui.input_placeholder"
+msgstr "Wpisz wiele wierszy..."

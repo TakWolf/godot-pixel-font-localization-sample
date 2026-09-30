@@ -1,0 +1,9 @@
+msgid ""
+msgstr ""
+"Language: de\n"
+
+msgid "sample.title"
+msgstr "Der Nordwind und die Sonne"
+
+msgid "sample.content"
+msgstr "Der Nordwind und die Sonne stritten darüber, wer von ihnen stärker sei. Da sahen sie einen Reisenden des Weges kommen, der in einen Umhang gehüllt war. Sie vereinbarten, dass derjenige als der Stärkere gelten sollte, der den Reisenden dazu bringen würde, seinen Umhang abzulegen. Der Nordwind begann mit aller Kraft zu blasen. Doch je heftiger er blies, desto enger hüllte sich der Reisende in seinen Umhang. Schließlich gab der Nordwind auf. Darauf ließ die Sonne ihre warmen Strahlen auf den Reisenden scheinen, und der Reisende legte seinen Umhang sofort ab. Da musste der Nordwind zugeben, dass die Sonne stärker war als er selbst."

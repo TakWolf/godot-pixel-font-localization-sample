@@ -1,0 +1,9 @@
+msgid ""
+msgstr ""
+"Language: pl\n"
+
+msgid "sample.title"
+msgstr "Północny Wiatr i Słońce"
+
+msgid "sample.content"
+msgstr "Północny Wiatr i Słońce spierali się, które z nich jest silniejsze. Wtedy zobaczyli idącego drogą wędrowca otulonego płaszczem. Umówili się, że silniejsze okaże się to z nich, któremu uda się skłonić wędrowca do zdjęcia płaszcza. Najpierw Północny Wiatr zaczął wiać z całych sił. Jednak im mocniej wiał, tym szczelniej wędrowiec otulał się płaszczem. W końcu Północny Wiatr musiał się poddać. Następnie Słońce zaczęło ciepło ogrzewać wędrowca, a ten natychmiast zdjął płaszcz. Wtedy Północny Wiatr musiał przyznać, że Słońce jest od niego silniejsze."

@@ -1,0 +1,8 @@
+msgid ""
+msgstr ""
+
+msgid "sample.title"
+msgstr ""
+
+msgid "sample.content"
+msgstr ""

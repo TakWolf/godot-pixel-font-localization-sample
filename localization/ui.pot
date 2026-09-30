@@ -1,0 +1,11 @@
+msgid ""
+msgstr ""
+
+msgid "ui.change_language"
+msgstr ""
+
+msgid "ui.close"
+msgstr ""
+
+msgid "ui.input_placeholder"
+msgstr ""

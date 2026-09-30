@@ -1,0 +1,9 @@
+msgid ""
+msgstr ""
+"Language: pt_BR\n"
+
+msgid "sample.title"
+msgstr "O Vento Norte e o Sol"
+
+msgid "sample.content"
+msgstr "O Vento Norte e o Sol discutiam qual dos dois era mais forte. Nesse momento, viram um viajante envolto em uma capa passar pela estrada. Combinaram que quem conseguisse fazer o viajante tirar a capa seria considerado o mais forte. O Vento Norte começou a soprar com toda a sua força. Mas, quanto mais forte soprava, mais o viajante apertava a capa contra o corpo. Por fim, o Vento Norte desistiu. Então o Sol começou a brilhar suavemente e a aquecer o viajante, que logo tirou a capa. Assim, o Vento Norte teve que admitir que o Sol era mais forte do que ele."

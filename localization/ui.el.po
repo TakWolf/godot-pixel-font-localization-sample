@@ -1,0 +1,12 @@
+msgid ""
+msgstr ""
+"Language: el\n"
+
+msgid "ui.change_language"
+msgstr "Αλλαγή γλώσσας"
+
+msgid "ui.close"
+msgstr "Κλείσιμο"
+
+msgid "ui.input_placeholder"
+msgstr "Πληκτρολογήστε πολλές γραμμές..."

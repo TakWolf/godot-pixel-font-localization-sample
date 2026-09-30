@@ -1,0 +1,12 @@
+msgid ""
+msgstr ""
+"Language: ja\n"
+
+msgid "ui.change_language"
+msgstr "言語を変更"
+
+msgid "ui.close"
+msgstr "閉じる"
+
+msgid "ui.input_placeholder"
+msgstr "複数行のテキストを入力..."

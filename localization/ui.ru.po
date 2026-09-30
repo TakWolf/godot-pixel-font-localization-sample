@@ -1,0 +1,12 @@
+msgid ""
+msgstr ""
+"Language: ru\n"
+
+msgid "ui.change_language"
+msgstr "Сменить язык"
+
+msgid "ui.close"
+msgstr "Закрыть"
+
+msgid "ui.input_placeholder"
+msgstr "Введите несколько строк..."

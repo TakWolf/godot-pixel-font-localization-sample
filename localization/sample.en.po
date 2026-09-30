@@ -1,0 +1,9 @@
+msgid ""
+msgstr ""
+"Language: en\n"
+
+msgid "sample.title"
+msgstr "The North Wind and the Sun"
+
+msgid "sample.content"
+msgstr "The North Wind and the Sun were arguing about which of them was stronger. Just then, they saw a traveler coming along the road, wrapped in a cloak. They agreed that whoever could make the traveler take off his cloak would be considered the stronger. The North Wind began to blow with all his might. But the harder he blew, the more tightly the traveler wrapped his cloak around himself. At last, the North Wind gave up. Then the Sun shone warmly on the traveler, who immediately took off his cloak. So the North Wind had to admit that the Sun was stronger than he was."

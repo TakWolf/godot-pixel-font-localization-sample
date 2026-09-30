@@ -1,0 +1,12 @@
+msgid ""
+msgstr ""
+"Language: pt_BR\n"
+
+msgid "ui.change_language"
+msgstr "Alterar idioma"
+
+msgid "ui.close"
+msgstr "Fechar"
+
+msgid "ui.input_placeholder"
+msgstr "Digite várias linhas..."

@@ -1,0 +1,9 @@
+msgid ""
+msgstr ""
+"Language: it\n"
+
+msgid "sample.title"
+msgstr "La Tramontana e il Sole"
+
+msgid "sample.content"
+msgstr "La Tramontana e il Sole discutevano su chi dei due fosse più forte. Proprio allora videro passare per la strada un viandante avvolto in un mantello. Convennero che chi fosse riuscito a far togliere il mantello al viandante sarebbe stato considerato il più forte. La Tramontana cominciò a soffiare con tutte le sue forze. Ma quanto più forte soffiava, tanto più il viandante si stringeva il mantello addosso. Alla fine, la Tramontana si arrese. Poi il Sole cominciò a splendere sul viandante, diffondendo un piacevole tepore, e il viandante si tolse subito il mantello. Così la Tramontana dovette ammettere che il Sole era più forte di lei."

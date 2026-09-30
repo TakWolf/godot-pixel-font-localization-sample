@@ -1,0 +1,12 @@
+msgid ""
+msgstr ""
+"Language: zh_Hant\n"
+
+msgid "ui.change_language"
+msgstr "切換語言"
+
+msgid "ui.close"
+msgstr "關閉"
+
+msgid "ui.input_placeholder"
+msgstr "輸入多行文字..."

@@ -1,0 +1,12 @@
+msgid ""
+msgstr ""
+"Language: ko\n"
+
+msgid "ui.change_language"
+msgstr "언어 변경"
+
+msgid "ui.close"
+msgstr "닫기"
+
+msgid "ui.input_placeholder"
+msgstr "여러 줄의 텍스트를 입력하세요..."

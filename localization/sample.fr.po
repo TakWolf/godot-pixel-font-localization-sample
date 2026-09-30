@@ -1,0 +1,9 @@
+msgid ""
+msgstr ""
+"Language: fr\n"
+
+msgid "sample.title"
+msgstr "Le Vent du Nord et le Soleil"
+
+msgid "sample.content"
+msgstr "Le Vent du Nord et le Soleil se disputaient pour savoir lequel des deux était le plus fort. À ce moment-là, ils virent passer sur le chemin un voyageur enveloppé dans un manteau. Ils convinrent que celui qui parviendrait à faire ôter son manteau au voyageur serait considéré comme le plus fort. Le Vent du Nord se mit à souffler de toutes ses forces. Mais plus il soufflait fort, plus le voyageur resserrait son manteau autour de lui. Finalement, le Vent du Nord abandonna. Puis le Soleil se mit à briller sur le voyageur en diffusant une douce chaleur, et celui-ci ôta aussitôt son manteau. Le Vent du Nord dut alors reconnaître que le Soleil était plus fort que lui."
